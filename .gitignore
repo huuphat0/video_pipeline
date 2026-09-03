@@ -1,0 +1,11 @@
+# Video input & output — quá nặng cho git, tự sinh lại được
+*.mp4
+*.MP4
+
+# Log/kết quả sinh ra khi chạy
+*.json
+
+__pycache__/
+*.pyc
+venv/
+.env
