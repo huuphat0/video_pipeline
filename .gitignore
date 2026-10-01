@@ -1,29 +1,11 @@
-# virtualenvs / caches
-venv/
-.venv/
+# Video input & output — quá nặng cho git, tự sinh lại được
+*.mp4
+*.MP4
+
+# Log/kết quả sinh ra khi chạy
+*.json
+
 __pycache__/
 *.pyc
-
-# media & model weights
-*.mp4
-*.avi
-*.mov
-*.pt
-*.pth
-*.onnx
-*.safetensors
-
-# generated outputs
-out/
-out2/
-**/out_*/
-frames/
-
-# nested repos
-sam_dino/
-github/
-
-# local tooling
-.claude/
+venv/
 .env
-*.MP4
