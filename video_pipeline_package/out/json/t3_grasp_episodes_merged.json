@@ -1,0 +1,72 @@
+{
+  "source_masks": "../../out/gsam2_t3/masks_gsam2_merged.json",
+  "source_depth": null,
+  "fps": 30.016979301423028,
+  "grasp_episodes": [
+    {
+      "object": "glass cup",
+      "start": 0.17,
+      "end": 0.37,
+      "duration_sec": 0.2,
+      "grasp_point": {
+        "along": 0.066,
+        "part": "phần dưới",
+        "side": "bên phải"
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 6
+    },
+    {
+      "object": "glass cup",
+      "start": 0.47,
+      "end": 2.03,
+      "duration_sec": 1.57,
+      "grasp_point": {
+        "along": 0.183,
+        "part": "phần dưới",
+        "side": "bên phải"
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 47
+    },
+    {
+      "object": "water bottle",
+      "start": 3.36,
+      "end": 5.36,
+      "duration_sec": 2.0,
+      "grasp_point": {
+        "along": 0.144,
+        "part": "phần dưới",
+        "side": ""
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 60
+    },
+    {
+      "object": "water bottle",
+      "start": 6.23,
+      "end": 8.43,
+      "duration_sec": 2.2,
+      "grasp_point": {
+        "along": 0.615,
+        "part": "thân",
+        "side": ""
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 66
+    },
+    {
+      "object": "glass cup",
+      "start": 8.3,
+      "end": 8.6,
+      "duration_sec": 0.3,
+      "grasp_point": {
+        "along": 0.089,
+        "part": "phần dưới",
+        "side": "bên phải"
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 9
+    }
+  ]
+}

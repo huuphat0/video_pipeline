@@ -1,0 +1,169 @@
+{
+  "source_masks": "../../out/gsam2_demo/masks_gsam2.json",
+  "source_depth": "../../out/demo_depth.npz",
+  "fps": 29.81,
+  "size": [
+    480,
+    640
+  ],
+  "n_frames": 347,
+  "hand_ids": [
+    2,
+    3,
+    4
+  ],
+  "object_ids": [
+    0,
+    1
+  ],
+  "depth_reference_mm": 496.3,
+  "id_to_label": {
+    "0": "white cup",
+    "1": "plastic water bottle",
+    "2": "hand",
+    "3": "hand",
+    "4": "hand"
+  },
+  "segments": [
+    {
+      "time_sec": 0.0,
+      "end_sec": 0.772,
+      "duration_sec": 0.772,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 13.0
+    },
+    {
+      "time_sec": 0.772,
+      "end_sec": 0.973,
+      "duration_sec": 0.201,
+      "skill_en": "Reach",
+      "skill_vi": "Tiếp cận",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 13.0
+    },
+    {
+      "time_sec": 0.973,
+      "end_sec": 1.208,
+      "duration_sec": 0.235,
+      "skill_en": "Contact",
+      "skill_vi": "Chạm",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 12.7
+    },
+    {
+      "time_sec": 1.208,
+      "end_sec": 2.516,
+      "duration_sec": 1.308,
+      "skill_en": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 17.8
+    },
+    {
+      "time_sec": 2.516,
+      "end_sec": 3.388,
+      "duration_sec": 0.872,
+      "skill_en": "Lift",
+      "skill_vi": "Nhấc lên",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 62.7
+    },
+    {
+      "time_sec": 3.388,
+      "end_sec": 3.858,
+      "duration_sec": 0.47,
+      "skill_en": "MoveToTarget",
+      "skill_vi": "Di chuyển",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 64.1
+    },
+    {
+      "time_sec": 3.858,
+      "end_sec": 5.77,
+      "duration_sec": 1.912,
+      "skill_en": "Pour",
+      "skill_vi": "Rót",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 59.8
+    },
+    {
+      "time_sec": 5.77,
+      "end_sec": 6.273,
+      "duration_sec": 0.503,
+      "skill_en": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 2.8
+    },
+    {
+      "time_sec": 6.273,
+      "end_sec": 7.38,
+      "duration_sec": 1.107,
+      "skill_en": "Pour",
+      "skill_vi": "Rót",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 66.4
+    },
+    {
+      "time_sec": 7.38,
+      "end_sec": 8.085,
+      "duration_sec": 0.704,
+      "skill_en": "MoveToTarget",
+      "skill_vi": "Di chuyển",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 70.0
+    },
+    {
+      "time_sec": 8.085,
+      "end_sec": 9.426,
+      "duration_sec": 1.342,
+      "skill_en": "Place",
+      "skill_vi": "Đặt xuống",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 64.4
+    },
+    {
+      "time_sec": 9.426,
+      "end_sec": 9.963,
+      "duration_sec": 0.537,
+      "skill_en": "MoveToTarget",
+      "skill_vi": "Di chuyển",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 5.3
+    },
+    {
+      "time_sec": 9.963,
+      "end_sec": 10.231,
+      "duration_sec": 0.268,
+      "skill_en": "Retract",
+      "skill_vi": "Rút tay",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 6.3
+    },
+    {
+      "time_sec": 10.231,
+      "end_sec": 11.64,
+      "duration_sec": 1.409,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 1,
+      "object_label": "plastic water bottle",
+      "max_height_mm": 5.8
+    }
+  ]
+}

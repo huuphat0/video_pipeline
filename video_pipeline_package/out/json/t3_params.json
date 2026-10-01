@@ -1,0 +1,203 @@
+{
+  "source_masks": "../../out/gsam2_t3/masks_gsam2.json",
+  "source_skills": "../../out/t3_skills.json",
+  "source_depth": null,
+  "fps": 30.016979301423028,
+  "note": "Tham số để robot thực hiện lại skill. Mọi vị trí đều TƯƠNG ĐỐI VỚI VẬT, không dùng toạ độ tuyệt đối của tay trong ảnh — camera người quay khác camera robot nên toạ độ tuyệt đối không chuyển được. Xem docstring skill_params.py.",
+  "skills": [
+    {
+      "skill": "Reach",
+      "skill_vi": "Tiếp cận",
+      "object": "glass cup",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "skill": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object": "glass cup",
+      "start": 0.2,
+      "end": 1.466,
+      "contact_on_object": {
+        "x_px": 374.65,
+        "y_px": 180.246,
+        "along": 0.813,
+        "part": "phần trên",
+        "side": "bên trái",
+        "n_frames": 35
+      },
+      "approach": {
+        "deg": 294.2,
+        "label": "từ dưới-phải"
+      }
+    },
+    {
+      "skill": "Place",
+      "skill_vi": "Đặt xuống",
+      "object": "glass cup",
+      "start": 1.466,
+      "end": 2.165,
+      "contact_on_object": {
+        "x_px": 371.415,
+        "y_px": 198.431,
+        "along": 0.871,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 19
+      }
+    },
+    {
+      "skill": "Retract",
+      "skill_vi": "Rút tay",
+      "object": "glass cup",
+      "start": 2.165,
+      "end": 2.332
+    },
+    {
+      "skill": "Idle",
+      "skill_vi": "Không tương tác",
+      "object": "glass cup",
+      "start": 2.332,
+      "end": 3.398
+    },
+    {
+      "skill": "Contact",
+      "skill_vi": "Chạm",
+      "object": "water bottle",
+      "start": 3.398,
+      "end": 3.598,
+      "contact_on_object": {
+        "x_px": 449.519,
+        "y_px": 145.545,
+        "along": 0.933,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 7
+      },
+      "approach": {
+        "deg": 269.4,
+        "label": "từ phía dưới"
+      }
+    },
+    {
+      "skill": "MoveToTarget",
+      "skill_vi": "Di chuyển",
+      "object": "water bottle",
+      "start": 3.598,
+      "end": 3.998,
+      "contact_on_object": {
+        "x_px": 486.938,
+        "y_px": 121.703,
+        "along": 0.79,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 12
+      }
+    },
+    {
+      "skill": "Place",
+      "skill_vi": "Đặt xuống",
+      "object": "water bottle",
+      "start": 3.998,
+      "end": 4.497,
+      "contact_on_object": {
+        "x_px": 488.347,
+        "y_px": 129.446,
+        "along": 0.808,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 14
+      }
+    },
+    {
+      "skill": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object": "water bottle",
+      "start": 4.497,
+      "end": 4.897,
+      "contact_on_object": {
+        "x_px": 485.803,
+        "y_px": 134.514,
+        "along": 0.809,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 12
+      }
+    },
+    {
+      "skill": "Place",
+      "skill_vi": "Đặt xuống",
+      "object": "water bottle",
+      "start": 4.897,
+      "end": 5.23,
+      "contact_on_object": {
+        "x_px": 484.448,
+        "y_px": 137.913,
+        "along": 0.794,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 10
+      }
+    },
+    {
+      "skill": "Idle",
+      "skill_vi": "Không tương tác",
+      "object": "water bottle",
+      "start": 5.23,
+      "end": 6.263,
+      "contact_on_object": {
+        "x_px": 456.411,
+        "y_px": 177.341,
+        "along": 0.941,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 5
+      }
+    },
+    {
+      "skill": "Contact",
+      "skill_vi": "Chạm",
+      "object": "water bottle",
+      "start": 6.263,
+      "end": 6.396,
+      "contact_on_object": {
+        "x_px": 440.457,
+        "y_px": 154.028,
+        "along": 0.847,
+        "part": "phần trên",
+        "side": "",
+        "n_frames": 4
+      }
+    },
+    {
+      "skill": "Place",
+      "skill_vi": "Đặt xuống",
+      "object": "water bottle",
+      "start": 6.396,
+      "end": 6.763,
+      "contact_on_object": {
+        "x_px": 456.33,
+        "y_px": 99.433,
+        "along": 0.448,
+        "part": "thân",
+        "side": "",
+        "n_frames": 12
+      }
+    },
+    {
+      "skill": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object": "water bottle",
+      "start": 6.763,
+      "end": 8.795,
+      "contact_on_object": {
+        "x_px": 459.682,
+        "y_px": 98.799,
+        "along": 0.364,
+        "part": "thân",
+        "side": "",
+        "n_frames": 50
+      }
+    }
+  ]
+}

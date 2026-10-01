@@ -1,0 +1,24 @@
+{
+  "source_masks": "../../out/gsam2_demo/masks_gsam2_merged.json",
+  "source_depth": "../../out/demo_depth.npz",
+  "fps": 29.81,
+  "grasp_episodes": [
+    {
+      "object": "plastic water bottle",
+      "start": 1.71,
+      "end": 9.66,
+      "duration_sec": 7.95,
+      "grasp_point": {
+        "along": 0.351,
+        "part": "thân",
+        "side": ""
+      },
+      "grasp_point_xyz_mm": {
+        "x": -86.1,
+        "y": -31.6,
+        "z": 466.0
+      },
+      "n_frames": 237
+    }
+  ]
+}

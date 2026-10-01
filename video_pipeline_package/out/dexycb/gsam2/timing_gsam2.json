@@ -1,0 +1,8 @@
+{
+  "n_frames": 74,
+  "n_keyframes": 5,
+  "detect_ms_per_keyframe": 361.5,
+  "track_ms_per_frame": 144.1,
+  "total_s": 12.5,
+  "fps_end_to_end": 5.92
+}
