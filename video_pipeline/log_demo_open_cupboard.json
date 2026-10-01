@@ -1,0 +1,32 @@
+[
+  {
+    "time_sec": 0.0,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận",
+    "object_vi": "tay cầm nồi",
+    "touch_point": {
+      "x": 0.275,
+      "y": 0.9675925925925926
+    }
+  },
+  {
+    "time_sec": 0.7,
+    "skill_en": "Open",
+    "skill_vi": "Mở",
+    "object_vi": "tủ bếp",
+    "touch_point": {
+      "x": 0.6770833333333334,
+      "y": 0.6481481481481481
+    }
+  },
+  {
+    "time_sec": 1.4,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận",
+    "object_vi": "tay cầm nồi",
+    "touch_point": {
+      "x": 0.3645833333333333,
+      "y": 0.7944444444444444
+    }
+  }
+]

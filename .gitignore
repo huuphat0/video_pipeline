@@ -1,0 +1,27 @@
+# virtualenvs / caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# media & model weights
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# generated outputs
+out/
+out2/
+**/out_*/
+frames/
+
+# nested repos
+sam_dino/
+github/
+
+# local tooling
+.claude/

@@ -1,0 +1,99 @@
+[
+  {
+    "time_sec": 0.0,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận",
+    "object_vi": "",
+    "touch_point": null
+  },
+  {
+    "time_sec": 1.0,
+    "skill_en": "Grasp",
+    "skill_vi": "Cầm nắm",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.5140625,
+      "y": 0.6638888888888889
+    }
+  },
+  {
+    "time_sec": 2.0,
+    "skill_en": "Lift",
+    "skill_vi": "Nhấc lên",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.671875,
+      "y": 0.525
+    }
+  },
+  {
+    "time_sec": 3.0,
+    "skill_en": "Pour",
+    "skill_vi": "Rót",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.7265625,
+      "y": 0.7013888888888888
+    }
+  },
+  {
+    "time_sec": 4.0,
+    "skill_en": "Pour",
+    "skill_vi": "Rót",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.6953125,
+      "y": 0.5583333333333333
+    }
+  },
+  {
+    "time_sec": 4.9,
+    "skill_en": "Pour",
+    "skill_vi": "Rót",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.6125,
+      "y": 0.4166666666666667
+    }
+  },
+  {
+    "time_sec": 5.9,
+    "skill_en": "Pour",
+    "skill_vi": "Rót",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.62265625,
+      "y": 0.3388888888888889
+    }
+  },
+  {
+    "time_sec": 6.9,
+    "skill_en": "Pour",
+    "skill_vi": "Rót",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.60234375,
+      "y": 0.6638888888888889
+    }
+  },
+  {
+    "time_sec": 7.9,
+    "skill_en": "Lift",
+    "skill_vi": "Nhấc lên",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.68203125,
+      "y": 0.75
+    }
+  },
+  {
+    "time_sec": 8.9,
+    "skill_en": "Lift",
+    "skill_vi": "Nhấc lên",
+    "object_vi": "cốc",
+    "touch_point": {
+      "x": 0.6640625,
+      "y": 0.8222222222222222
+    }
+  }
+]

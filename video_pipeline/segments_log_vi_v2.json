@@ -1,0 +1,72 @@
+[
+  {
+    "time_sec": 0.0,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận"
+  },
+  {
+    "time_sec": 0.7,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận"
+  },
+  {
+    "time_sec": 1.4,
+    "skill_en": "Reach",
+    "skill_vi": "Tiếp cận"
+  },
+  {
+    "time_sec": 2.1,
+    "skill_en": "Grasp",
+    "skill_vi": "Cầm nắm"
+  },
+  {
+    "time_sec": 2.8,
+    "skill_en": "Lift",
+    "skill_vi": "Nhấc lên"
+  },
+  {
+    "time_sec": 3.4,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 4.1,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 4.8,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 5.5,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 6.2,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 6.9,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 7.6,
+    "skill_en": "Pour",
+    "skill_vi": "Rót"
+  },
+  {
+    "time_sec": 8.3,
+    "skill_en": "Release",
+    "skill_vi": "Thả ra"
+  },
+  {
+    "time_sec": 8.9,
+    "skill_en": "Lift",
+    "skill_vi": "Nhấc lên"
+  }
+]

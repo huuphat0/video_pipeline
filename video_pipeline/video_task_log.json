@@ -1,0 +1,89 @@
+[
+  {
+    "source_log": "segments_log_vi_v2.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Lift",
+      "Pour",
+      "Release",
+      "Lift"
+    ],
+    "task_name": "Chuẩn bị và rót thức uống",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  },
+  {
+    "source_log": "segments_log_vi_v2.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Lift",
+      "Pour",
+      "Release",
+      "Lift"
+    ],
+    "task_name": "Chuẩn bị thức uống",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  },
+  {
+    "source_log": "log_test2_tasklog.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Pour",
+      "Place",
+      "Grasp"
+    ],
+    "task_name": "Rót chất lỏng từ vật thể vào nơi khác",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  },
+  {
+    "source_log": "log_test5.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Reach",
+      "Grasp",
+      "Pour",
+      "Lift",
+      "Rotate",
+      "Grasp",
+      "Pour",
+      "Grasp",
+      "Reach"
+    ],
+    "task_name": "Rót chất lỏng từ chai vào cốc",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  },
+  {
+    "source_log": "log_test5_final.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Reach",
+      "Grasp",
+      "Lift",
+      "Pour",
+      "Lift",
+      "Rotate",
+      "Grasp",
+      "Pour",
+      "Grasp",
+      "Reach"
+    ],
+    "task_name": "Rót chất lỏng từ chai vào cốc",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  },
+  {
+    "source_log": "log_test1_final2.json",
+    "skill_sequence": [
+      "Reach",
+      "Grasp",
+      "Pour",
+      "Place",
+      "Release"
+    ],
+    "task_name": "Rót vật chất từ vật thể này sang vật thể khác",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  }
+]

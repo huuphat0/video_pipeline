@@ -1,0 +1,27 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1788248653.802798  133149 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1788248653.810667  133149 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1788248653.834135  133151 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+Model VLM: qwen3-vl:8b-instruct
+Skill ontology: ['Reach', 'Grasp', 'Lift', 'MoveToTarget', 'Pour', 'Place', 'Push', 'Pull', 'Open', 'Close', 'Rotate', 'Insert', 'Remove', 'Press', 'Release', 'GoHome']
+
+Đã lấy 6 mốc thời gian để phân loại (cửa sổ 3 frame liên tiếp, kèm nhận diện vật thể).
+
+  t=  0.0s  ->  Grasp (Cầm nắm) - cốc
+  t=  1.5s  ->  Place (Đặt xuống) - cốc
+  t=  3.0s  ->  Place (Đặt xuống) - chai nước  (chạm: nắp chai)
+  t=  4.5s  ->  Place (Đặt xuống) - chai nước  (chạm: nắp chai)
+  t=  6.0s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp chai)
+  t=  7.5s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp chai)
+
+Đã ghi video overlay vào: test_qwen3/annot_test3_qwen3_fix.mp4
+Đã lưu timeline vào: test_qwen3/log_test3_qwen3_fix.json
+Chuỗi skill (đã rút gọn): Grasp -> Place -> Grasp
+Tên task suy luận được: Đặt vật thể vào vị trí mới
+Đã ghi vào: test_qwen3/task_log_test3_qwen3_fix.json (tổng 1 bản ghi tích luỹ)
+
+Thống kê VLM (qwen3-vl:8b-instruct): 7 request, tổng 25.1s, trung bình 3.6s/request
+
+LƯU Ý: nếu video output không phát được, convert bằng ffmpeg:
+  ffmpeg -i test_qwen3/annot_test3_qwen3_fix.mp4 -c:v libx264 -pix_fmt yuv420p annotated_output_vi_v3_h264.mp4

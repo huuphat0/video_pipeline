@@ -1,0 +1,12 @@
+[
+  {
+    "source_log": "test_qwen3/log_test3_qwen3_fix.json",
+    "skill_sequence": [
+      "Grasp",
+      "Place",
+      "Grasp"
+    ],
+    "task_name": "Đặt vật thể vào vị trí mới",
+    "note": "Dữ liệu tham khảo từ video quan sát được — KHÔNG tự động đưa vào Task Planner hay skills.yaml. Con người xem xét thủ công để quyết định có cần bổ sung luật hay không."
+  }
+]
