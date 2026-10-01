@@ -25,3 +25,5 @@ github/
 
 # local tooling
 .claude/
+.env
+*.MP4

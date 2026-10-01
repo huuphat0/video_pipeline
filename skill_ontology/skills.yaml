@@ -1,0 +1,106 @@
+# skills.yaml — Skill Ontology cho UR3 Skill Learning Project
+#
+# Nguyên tắc:
+# - Mỗi skill là một hành động ở mức SEMANTIC, không phải trajectory.
+# - "synonyms" dùng cho bước Skill Normalization (so khớp output VLM thô).
+# - "preconditions" / "effects" dùng làm state token đơn giản cho Task Planner
+#   và Pipeline Validator (không cần logic formal, chỉ so sánh string).
+# - Khi phát hiện Unknown Skill, thêm entry mới vào cuối file này theo đúng
+#   format, không sửa lại các skill đã có trừ khi thực sự cần.
+
+skills:
+  - name: Reach
+    description: Move end-effector toward an object without grasping it
+    synonyms: [approach, move toward, move to, go to]
+    preconditions: []
+    effects: [near_object]
+
+  - name: Grasp
+    description: Take hold of an object with the gripper
+    synonyms: [grab, pick up, take, hold, grip, seize]
+    preconditions: [near_object]
+    effects: [holding_object]
+
+  - name: Lift
+    description: Raise a held object vertically off a surface
+    synonyms: [raise, pick_up_vertical, elevate]
+    preconditions: [holding_object]
+    effects: [holding_object, object_elevated]
+
+  - name: MoveToTarget
+    description: Transport a held object toward a target location
+    synonyms: [bring, carry, move toward target, transport]
+    preconditions: [holding_object, object_elevated]
+    effects: [holding_object, object_at_target]
+
+  - name: Pour
+    description: Tilt a held container to pour its contents into another container
+    synonyms: [tip, tilt and dispense, pour out]
+    preconditions: [holding_object, object_at_target]
+    effects: [holding_object, content_dispensed]
+
+  - name: Place
+    description: Set a held object down at the current position, releasing it
+    synonyms: [put down, set down, release onto surface, drop off]
+    preconditions: [holding_object]
+    effects: [object_at_target, not_holding_object]
+
+  - name: Push
+    description: Apply force to move an object away without lifting it
+    synonyms: [shove, slide away]
+    preconditions: [near_object]
+    effects: [object_pushed]
+
+  - name: Pull
+    description: Apply force to move an object closer without lifting it
+    synonyms: [drag, slide toward]
+    preconditions: [near_object]
+    effects: [object_pulled]
+
+  - name: Open
+    description: Actuate a hinged or sliding part to an open state (lid, door, drawer)
+    synonyms: [unlatch, uncap, lift lid]
+    preconditions: [near_object, holding_object]
+    effects: [object_open]
+
+  - name: Close
+    description: Actuate a hinged or sliding part to a closed state
+    synonyms: [shut, cap, put lid on]
+    preconditions: [near_object, holding_object]
+    effects: [object_closed]
+
+  - name: Rotate
+    description: Rotate an object or container around its own axis
+    synonyms: [turn, twist, spin]
+    preconditions: [holding_object]
+    effects: [object_rotated]
+
+  - name: Insert
+    description: Place an object into a receptacle or slot
+    synonyms: [put in, slot in, plug in]
+    preconditions: [holding_object, near_object]
+    effects: [object_inserted]
+
+  - name: Remove
+    description: Take an object out of a receptacle or slot
+    synonyms: [take out, pull out, extract]
+    preconditions: [near_object]
+    effects: [holding_object, object_removed]
+
+  - name: Press
+    description: Apply downward or forward force on a fixed point (button, switch)
+    synonyms: [push button, tap, activate]
+    preconditions: [near_object]
+    effects: [object_activated]
+
+  - name: Release
+    description: Open the gripper to let go of a held object without placing it precisely
+    synonyms: [let go, drop, ungrip]
+    preconditions: [holding_object]
+    effects: [not_holding_object]
+
+  - name: GoHome
+    description: Move the end-effector or held object back to its original/home position
+    synonyms: [return, go back, return to start, back to origin]
+    preconditions: []
+    effects: [at_home_position]

@@ -1,0 +1,25 @@
+# skill_names_vi.yaml
+#
+# File RIÊNG, không đụng vào skills.yaml gốc. Chỉ dùng để map tên skill
+# tiếng Anh (trong skills.yaml) sang tên hiển thị tiếng Việt cho overlay.
+#
+# Nếu sau này có Unknown Skill mới được tạo, chỉ cần thêm 1 dòng ở đây,
+# không cần sửa skills.yaml.
+
+Reach: Tiếp cận
+Grasp: Cầm nắm
+Lift: Nhấc lên
+MoveToTarget: Di chuyển
+Pour: Rót
+Place: Đặt xuống
+Push: Đẩy
+Pull: Kéo
+Open: Mở
+Close: Đóng
+Rotate: Xoay
+Insert: Chèn vào
+Remove: Lấy ra
+Press: Nhấn
+Release: Thả ra
+Unknown: Không xác định
+GoHome: Về vị trí ban đầu
