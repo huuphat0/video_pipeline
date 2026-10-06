@@ -1,28 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[1/4] đọc video ../out/demo_color.mp4
-      347 frame, 29.8 fps, 640x480, 12 keyframe
-[2/4] nạp model lên cuda
-Loading weights:   0%|          | 0/1182 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 631/1182 [00:00<00:00, 6304.16it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 6934.54it/s]
-Loading weights:   0%|          | 0/901 [00:00<?, ?it/s]Loading weights:  49%|████▉     | 443/901 [00:00<00:00, 4260.97it/s]Loading weights:  97%|█████████▋| 870/901 [00:00<00:00, 2054.48it/s]Loading weights: 100%|██████████| 901/901 [00:00<00:00, 2131.51it/s]
-      xong sau 12.3s
-[3/4] detect + track, prompt = 'hand . plastic water bottle . white cup .'
-  chunk 1/12 frame 0-29: 4 obj -> id [0, 1, 2, 3]
-  chunk 2/12 frame 30-59: 4 obj -> id [0, 1, 2, 3]
-  chunk 3/12 frame 60-89: 3 obj -> id [0, 1, 2]
-      bỏ box trùng: hand 0.34 (IoU 0.81, bao hàm 0.99 với hand 0.47)
-  chunk 4/12 frame 90-119: 3 obj -> id [0, 1, 2]
-  chunk 5/12 frame 120-149: 3 obj -> id [0, 2, 1]
-  chunk 6/12 frame 150-179: 3 obj -> id [0, 2, 1]
-  chunk 7/12 frame 180-209: 3 obj -> id [0, 2, 1]
-  chunk 8/12 frame 210-239: 3 obj -> id [0, 2, 1]
-  chunk 9/12 frame 240-269: 3 obj -> id [0, 1, 2]
-      bỏ box trùng: hand 0.33 (IoU 0.44, bao hàm 0.82 với hand 0.51)
-  chunk 10/12 frame 270-299: 3 obj -> id [0, 1, 2]
-  chunk 11/12 frame 300-329: 3 obj -> id [0, 2, 1]
-  chunk 12/12 frame 330-346: 4 obj -> id [0, 1, 2, 4]
-[4/4] ghi kết quả
-
-  video     : ../out/gsam2_demo/annotated_gsam2.mp4
-  object    : 5 — #0 white cup, #1 plastic water bottle, #2 hand, #3 hand, #4 hand
-  phủ frame : 347/347 (100%)
-  thời gian : detect 352.0 ms/keyframe, track 164.5 ms/frame, tổng 61.2s (5.67 fps)
