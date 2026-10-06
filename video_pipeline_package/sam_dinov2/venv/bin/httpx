@@ -1,0 +1,6 @@
+#!/home/phuoc/ur3_skill_learning_host/video_pipeline_ai/sam_dinov2/venv/bin/python3
+import sys
+from httpx import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

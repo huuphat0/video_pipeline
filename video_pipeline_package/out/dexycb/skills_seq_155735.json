@@ -1,0 +1,61 @@
+{
+  "source_masks": "../../out/dexycb/gsam2_seq_155735/masks_gsam2.json",
+  "source_depth": "../../out/dexycb/seq_155735_depth.npz",
+  "fps": 30.0,
+  "size": [
+    480,
+    640
+  ],
+  "n_frames": 74,
+  "hand_ids": [
+    4
+  ],
+  "object_ids": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "depth_reference_mm": 990.8,
+  "id_to_label": {
+    "0": "wood block",
+    "1": "bottle",
+    "2": "wood block box",
+    "3": "clamp",
+    "4": "hand",
+    "5": "box"
+  },
+  "segments": [
+    {
+      "time_sec": 0.0,
+      "end_sec": 1.333,
+      "duration_sec": 1.333,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 0,
+      "object_label": "wood block",
+      "max_height_mm": 3.3
+    },
+    {
+      "time_sec": 1.333,
+      "end_sec": 1.767,
+      "duration_sec": 0.433,
+      "skill_en": "Reach",
+      "skill_vi": "Tiếp cận",
+      "object_id": 1,
+      "object_label": "bottle",
+      "max_height_mm": 18.8
+    },
+    {
+      "time_sec": 1.767,
+      "end_sec": 2.467,
+      "duration_sec": 0.7,
+      "skill_en": "Grasp",
+      "skill_vi": "Cầm nắm",
+      "object_id": 1,
+      "object_label": "bottle",
+      "max_height_mm": 191.8
+    }
+  ]
+}

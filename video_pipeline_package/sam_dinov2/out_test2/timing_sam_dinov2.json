@@ -1,0 +1,10 @@
+{
+  "n_frames": 297,
+  "n_keyframes": 7,
+  "detect_ms_per_keyframe": 0.0,
+  "track_ms_per_frame": 280.5,
+  "amg_ms_per_keyframe": 695.7,
+  "dinov2_ms_per_keyframe": 49.7,
+  "track_total_s": 83.5,
+  "n_masks_total": 56
+}

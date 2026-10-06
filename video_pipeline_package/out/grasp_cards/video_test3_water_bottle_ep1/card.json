@@ -1,0 +1,69 @@
+{
+  "object": "water bottle",
+  "episode": {
+    "start": 6.23,
+    "end": 8.43,
+    "index": 1
+  },
+  "source": {
+    "masks": "../../out/gsam2_t3/masks_gsam2_merged.json",
+    "depth": null,
+    "video": "/home/phuoc/ur3_skill_learning_host/video_pipeline_ai/video_test3.mp4"
+  },
+  "fps": 30.016979301423028,
+  "image_size_hw": [
+    405,
+    720
+  ],
+  "ref_frame": 186,
+  "ref_time": 6.2,
+  "hold_frames": [
+    187,
+    196
+  ],
+  "n_hold_frames": 10,
+  "settled_frames": [
+    192,
+    196
+  ],
+  "n_settled_frames": 5,
+  "crop_box_xyxy": [
+    402,
+    9,
+    519,
+    197
+  ],
+  "intrinsics": null,
+  "grasp_region_px": 2283,
+  "grasp_region_frac_of_object": 0.302,
+  "table_plane": null,
+  "table_plane_note": "không có depth",
+  "anchors": null,
+  "grasp_bands": null,
+  "along": null,
+  "envelope": null,
+  "on_surface_frac": null,
+  "object_frame_3d": null,
+  "legacy_2d": {
+    "along_min": 0.137,
+    "along_max": 0.597,
+    "along_center": 0.38,
+    "axis": "trục chính"
+  },
+  "signals_median_px": {
+    "hand": 3015,
+    "depth": 0,
+    "appearance": 4725,
+    "kept": 2528
+  },
+  "dino_features": "32x20 patch x 768 chiều",
+  "files": [
+    "card.json",
+    "dino_features.npz",
+    "grasp_freq.png",
+    "grasp_mask.png",
+    "obj_mask.png",
+    "preview.jpg",
+    "ref_rgb.png"
+  ]
+}

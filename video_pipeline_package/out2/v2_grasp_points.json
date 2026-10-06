@@ -1,0 +1,40 @@
+{
+  "source_masks": "../../out2/gsam2_v2/masks_gsam2_merged.json",
+  "fps": 4.894,
+  "objects": [
+    {
+      "object": "mug",
+      "contact_frames": 0
+    },
+    {
+      "object": "plastic bottle",
+      "contact_frames": 30,
+      "grasp_point_px": {
+        "x": 263.5,
+        "y": 183.5
+      },
+      "grasp_point_xyz_mm": null,
+      "part": "phần dưới",
+      "along": 0.19,
+      "side": "",
+      "axis_used": "trục chính",
+      "elongation": 2.085,
+      "height_range_mm": null
+    },
+    {
+      "object": "plastic bottle",
+      "contact_frames": 8,
+      "grasp_point_px": {
+        "x": 173.0,
+        "y": 229.0
+      },
+      "grasp_point_xyz_mm": null,
+      "part": "thân",
+      "along": 0.327,
+      "side": "",
+      "axis_used": "trục chính",
+      "elongation": 3.07,
+      "height_range_mm": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_masks": "../../out2/gsam2_v2/masks_gsam2_merged.json",
+  "source_depth": null,
+  "fps": 4.894,
+  "grasp_episodes": [
+    {
+      "object": "plastic bottle",
+      "start": 0.0,
+      "end": 6.13,
+      "duration_sec": 6.13,
+      "grasp_point": {
+        "along": 0.19,
+        "part": "phần dưới",
+        "side": ""
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 30
+    },
+    {
+      "object": "plastic bottle",
+      "start": 6.13,
+      "end": 7.76,
+      "duration_sec": 1.63,
+      "grasp_point": {
+        "along": 0.327,
+        "part": "thân",
+        "side": ""
+      },
+      "grasp_point_xyz_mm": null,
+      "n_frames": 8
+    }
+  ]
+}

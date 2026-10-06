@@ -1,0 +1,10 @@
+{
+  "source_masks": "../../out/gsam2_t3/masks_gsam2.json",
+  "source_depth": null,
+  "fps": 30.016979301423028,
+  "n_frames": 264,
+  "upright_angle_deg": 59.7,
+  "gap_align_mm": 40.0,
+  "tilt_min_deg": 20.0,
+  "episodes": []
+}

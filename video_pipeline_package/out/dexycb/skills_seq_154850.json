@@ -1,0 +1,71 @@
+{
+  "source_masks": "../../out/dexycb/gsam2_seq_154850/masks_gsam2.json",
+  "source_depth": "../../out/dexycb/seq_154850_depth.npz",
+  "fps": 30.0,
+  "size": [
+    480,
+    640
+  ],
+  "n_frames": 74,
+  "hand_ids": [
+    2,
+    3
+  ],
+  "object_ids": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "depth_reference_mm": 947.0,
+  "id_to_label": {
+    "0": "bottle",
+    "1": "power drill",
+    "2": "hand",
+    "3": "hand",
+    "4": "bottle",
+    "5": "wood block"
+  },
+  "segments": [
+    {
+      "time_sec": 0.0,
+      "end_sec": 0.833,
+      "duration_sec": 0.833,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 0,
+      "object_label": "bottle",
+      "max_height_mm": 32.1
+    },
+    {
+      "time_sec": 0.833,
+      "end_sec": 0.967,
+      "duration_sec": 0.133,
+      "skill_en": "Contact",
+      "skill_vi": "Chạm",
+      "object_id": 1,
+      "object_label": "power drill",
+      "max_height_mm": 34.4
+    },
+    {
+      "time_sec": 0.967,
+      "end_sec": 1.733,
+      "duration_sec": 0.767,
+      "skill_en": "Push",
+      "skill_vi": "Đẩy",
+      "object_id": 1,
+      "object_label": "power drill",
+      "max_height_mm": 135.1
+    },
+    {
+      "time_sec": 1.733,
+      "end_sec": 2.467,
+      "duration_sec": 0.733,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 4,
+      "object_label": "bottle",
+      "max_height_mm": 149.6
+    }
+  ]
+}

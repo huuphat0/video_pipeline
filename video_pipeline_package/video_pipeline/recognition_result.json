@@ -1,0 +1,21 @@
+{
+  "frames": [
+    "frames/frame_000_t0.0s.jpg",
+    "frames/frame_003_t4.5s.jpg",
+    "frames/frame_006_t8.9s.jpg",
+    "frames/frame_010_t14.8s.jpg",
+    "frames/frame_013_t19.3s.jpg",
+    "frames/frame_016_t23.8s.jpg",
+    "frames/frame_020_t29.7s.jpg",
+    "frames/frame_023_t34.2s.jpg"
+  ],
+  "predicted_skills": [
+    "Reach",
+    "Grasp",
+    "Lift",
+    "MoveToTarget",
+    "Pour",
+    "Place"
+  ],
+  "raw_output": "[\"Reach\", \"Grasp\", \"Lift\", \"MoveToTarget\", \"Pour\", \"Place\"]"
+}

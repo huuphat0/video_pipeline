@@ -1,0 +1,110 @@
+[
+  {
+    "time_sec": 0.0,
+    "skill": "Open"
+  },
+  {
+    "time_sec": 1.5,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 3.0,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 4.5,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 5.9,
+    "skill": "Close"
+  },
+  {
+    "time_sec": 7.4,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 8.9,
+    "skill": "Lift"
+  },
+  {
+    "time_sec": 10.4,
+    "skill": "Lift"
+  },
+  {
+    "time_sec": 11.9,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 13.4,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 14.8,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 16.3,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 17.8,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 19.3,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 20.8,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 22.3,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 23.8,
+    "skill": "Pour"
+  },
+  {
+    "time_sec": 25.2,
+    "skill": "Open"
+  },
+  {
+    "time_sec": 26.7,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 28.2,
+    "skill": "Pour"
+  },
+  {
+    "time_sec": 29.7,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 31.2,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 32.7,
+    "skill": "Open"
+  },
+  {
+    "time_sec": 34.2,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 35.6,
+    "skill": "Reach"
+  },
+  {
+    "time_sec": 37.1,
+    "skill": "Open"
+  },
+  {
+    "time_sec": 38.6,
+    "skill": "Pour"
+  }
+]

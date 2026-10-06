@@ -1,0 +1,47 @@
+{
+  "source_masks": "../../out/dexycb/gsam2_seq_144839/masks_gsam2.json",
+  "source_depth": "../../out/dexycb/seq_144839_depth.npz",
+  "fps": 30.0,
+  "size": [
+    480,
+    640
+  ],
+  "n_frames": 74,
+  "hand_ids": [
+    3
+  ],
+  "object_ids": [
+    0,
+    1,
+    2
+  ],
+  "depth_reference_mm": 1060.7,
+  "id_to_label": {
+    "0": "scissors",
+    "1": "wood block",
+    "2": "power drill",
+    "3": "hand"
+  },
+  "segments": [
+    {
+      "time_sec": 0.0,
+      "end_sec": 1.567,
+      "duration_sec": 1.567,
+      "skill_en": "Idle",
+      "skill_vi": "Không tương tác",
+      "object_id": 0,
+      "object_label": "scissors",
+      "max_height_mm": 43.9
+    },
+    {
+      "time_sec": 1.567,
+      "end_sec": 2.467,
+      "duration_sec": 0.9,
+      "skill_en": "Push",
+      "skill_vi": "Đẩy",
+      "object_id": 2,
+      "object_label": "power drill",
+      "max_height_mm": 200.7
+    }
+  ]
+}

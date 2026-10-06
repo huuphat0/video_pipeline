@@ -1,0 +1,33 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1789210532.507275   25748 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789210532.519990   25748 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789210532.547714   25748 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+Model VLM: qwen3-vl:8b-instruct
+Skill ontology: ['Reach', 'Grasp', 'Lift', 'MoveToTarget', 'Pour', 'Place', 'Push', 'Pull', 'Open', 'Close', 'Rotate', 'Insert', 'Remove', 'Press', 'Release', 'GoHome']
+
+Đã lấy 12 mốc thời gian để phân loại (cửa sổ 3 frame liên tiếp, kèm nhận diện vật thể).
+
+  t=  0.0s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp)
+  t=  1.0s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp)
+  t=  1.9s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp)
+  t=  2.9s  ->  Lift (Nhấc lên) - chai nước  (chạm: nắp)
+  t=  3.9s  ->  Pour (Rót) - chai nước  (chạm: nắp)
+  t=  4.9s  ->  Pour (Rót) - chai nước  (chạm: thân)
+  t=  5.8s  ->  Pour (Rót) - chai nước  (chạm: thân)
+  t=  6.8s  ->  Place (Đặt xuống) - chai nước  (chạm: thân)
+  t=  7.8s  ->  Place (Đặt xuống) - chai nước  (chạm: thân)
+  t=  8.8s  ->  Place (Đặt xuống) - chai nước  (chạm: nắp)
+  t=  9.7s  ->  Place (Đặt xuống) - chai nước  (chạm: nắp)
+  t= 10.7s  ->  Grasp (Cầm nắm) - chai nước  (chạm: nắp)
+
+Đã ghi video overlay vào: ../../out/demo_annotated.mp4
+Đã lưu timeline vào: ../../out/demo_segments.json
+Chuỗi skill (đã rút gọn): Grasp -> Lift -> Pour -> Place -> Grasp
+Tên task suy luận được: Rót nước từ bình ra ly
+Đã ghi vào: ../../out/demo_task_log.json (tổng 1 bản ghi tích luỹ)
+
+Thống kê VLM (qwen3-vl:8b-instruct): 36 request, tổng 62.9s, trung bình 1.7s/request
+
+LƯU Ý: nếu video output không phát được, convert bằng ffmpeg:
+  ffmpeg -i ../../out/demo_annotated.mp4 -c:v libx264 -pix_fmt yuv420p annotated_output_vi_v3_h264.mp4
